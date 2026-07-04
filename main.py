@@ -20,7 +20,7 @@ with sync_playwright() as p:
 
     print("Starting scan...\n", flush=True)
 
-    for i in range(1, 101):
+    for i in range(101, 200):
         url = f"https://hqporner.com/hdporn/{i}"
 
         elapsed = int(time.time() - start_time)
